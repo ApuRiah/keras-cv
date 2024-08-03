@@ -27,7 +27,9 @@ from absl import logging
 from tensorflow import keras
 
 from keras_cv import models
-from keras_cv.datasets.pascal_voc.segmentation import load
+from keras_cv.src.datasets.pascal_voc.segmentation import load
+
+# from keras_cv.datasets.pascal_voc.segmentation import load
 
 flags.DEFINE_string(
     "weights_path",

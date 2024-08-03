@@ -27,18 +27,18 @@ import tensorflow as tf
 from tensorflow import keras
 
 import keras_cv
-from keras_cv.callbacks import WaymoEvaluationCallback
-from keras_cv.datasets.waymo import convert_to_center_pillar_inputs
-from keras_cv.datasets.waymo import load
-from keras_cv.datasets.waymo import transformer
-from keras_cv.layers import CenterNetLabelEncoder
-from keras_cv.layers import DynamicVoxelization
-from keras_cv.models.object_detection_3d import CenterPillarBackbone
-from keras_cv.models.object_detection_3d import MultiHeadCenterPillar
-from keras_cv.models.object_detection_3d.center_pillar import (
+from keras_cv.src.callbacks import WaymoEvaluationCallback
+from keras_cv.src.datasets.waymo import convert_to_center_pillar_inputs
+from keras_cv.src.datasets.waymo import load
+from keras_cv.src.datasets.waymo import transformer
+from keras_cv.src.layers import CenterNetLabelEncoder
+from keras_cv.src.layers import DynamicVoxelization
+from keras_cv.src.models.object_detection_3d import CenterPillarBackbone
+from keras_cv.src.models.object_detection_3d import MultiHeadCenterPillar
+from keras_cv.src.models.object_detection_3d.center_pillar import (
     MultiClassDetectionHead,
 )
-from keras_cv.models.object_detection_3d.center_pillar import (
+from keras_cv.src.models.object_detection_3d.center_pillar import (
     MultiClassHeatmapDecoder,
 )
 

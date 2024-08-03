@@ -27,7 +27,7 @@ from absl import flags
 from tensorflow import keras
 
 import keras_cv
-from keras_cv.callbacks import PyCOCOCallback
+from keras_cv.src.callbacks import PyCOCOCallback
 
 flags.DEFINE_string(
     "weights_path",

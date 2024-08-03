@@ -25,7 +25,7 @@ from tensorflow.keras import optimizers
 from keras_cv import losses
 from keras_cv import models
 from keras_cv import training
-from keras_cv.datasets import imagenet
+from keras_cv.src.datasets import imagenet
 
 flags.DEFINE_string(
     "model_name", None, "The name of the model in KerasCV.models to use."

@@ -28,8 +28,8 @@ from absl import flags
 
 import keras_cv
 from keras_cv import models
-from keras_cv.backend import keras
-from keras_cv.datasets import imagenet
+from keras_cv.src.backend import keras
+from keras_cv.src.datasets import imagenet
 
 """
 ## Overview

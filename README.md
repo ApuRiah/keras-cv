@@ -37,6 +37,31 @@ these common tasks.
 KerasCV supports both Keras 2 and Keras 3. We recommend Keras 3 for all new 
 users, as it enables using KerasCV models and layers with JAX, TensorFlow and 
 PyTorch.
+```
+pip install -r requirements-common.txt
+```
+## please install requirements project
+requirements project:
+```
+pip install -r requirements.txt
+```
+## requirements tensorflow with cuda
+if you want train rcnn with tensorflow and cuda tools  
+requirements :
+```
+pip install -r requirements-tensorflow-cuda.txt
+``` 
+## requirements jax with cuda 
+if you want train models with jax and cuda tools must be install requirements:
+```
+pip install -r requirements-jax-cuda.txt
+```
+## requirements torch with cuda 
+if you  want train rcnn with torch and cuda tools 
+must be install requirements:
+```
+pip install -r requirements-torch-cuda.txt
+```
 
 ### Keras 2 Installation
 
